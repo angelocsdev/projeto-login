@@ -28,7 +28,7 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    
     background-color: white;
     width: 250px;
     height: 550px;
@@ -38,6 +38,7 @@ section#login {
 
     transition: width .3s, height .3s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%); /* ATENÇÃO: SEMPRE QUE FIZER UM 'TRANSFORM' OU 'TRANSITION' LEMBRE-SE DE COLOCÁ-LO NA ÚLTIMA LINHA DO SELETOR...*/
 }
 
 section#login > div#imagem {
